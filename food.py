@@ -70,7 +70,7 @@ def print_array(input_array): #Just used for printing arrays in a prettier way
 
 ''' Simple Example of Usage '''
 
-
+'''
 
 s,v = get_food() #Since no arguments are passed, it will get the food for the current week      s recieves the standard food and v recieves the vegetarian food
 
@@ -81,3 +81,5 @@ print(*s)
 
 print('\nVegetarian\n')
 print_array(v)
+
+'''
