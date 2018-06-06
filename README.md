@@ -17,10 +17,10 @@ Example
 4. Type this in your python file
 
 ```python
-from food.py import get_food
-from food.py import print_array
+from food import get_food
+from food import print_array
 
-s,v = get_food() #s recieves the standard food and v recieves the vegetarian food
+s, v = get_food() #s recieves the standard food and v recieves the vegetarian food
 
 print('\nStandard\n')
 print_array(s)
